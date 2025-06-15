@@ -1,14 +1,14 @@
 {
    "builds": [
             {
-                "src": "main.py",
+                "src": "skin.py",
                 "use": "@vercel/python"
             }
         ],
    "routers":[
         {
             "source": "/(.*)",
-            "destination":"/main.py"
+            "destination":"/skin.py"
         }
     ]
 }
